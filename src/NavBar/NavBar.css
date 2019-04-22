@@ -1,0 +1,22 @@
+.navbar {
+}
+
+.navbar__link {
+  padding:1em;
+  text-decoration: none;
+  border: 1px solid pink;
+  background-color: aquamarine;
+}
+
+.navbar__link:hover {
+  background-color: yellow;
+  color: blue;
+}
+
+.navbar__link:first-child {
+  border-radius: 1em 0 0 1em;
+}
+
+.navbar__link:last:child {
+  border-radius: 0 1em 0 1em;
+}
