@@ -1,7 +1,7 @@
 import React from 'react'
-import './CreativePortfolio.css'
+import 'TechPortfolioItem.css'
 
-const CreativePortfolioItem = ({ url, name, description }) => {
+const TechPortfolioItem = ({ url, name, description }) => {
   return (
     <div className="portfolio-item">
       <a className="portfolio-item_a" href={url}>

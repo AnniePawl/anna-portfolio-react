@@ -1,6 +1,6 @@
 import React from 'react'
-import CreativePortfolioItem from './CreativePortfolioItem'
-import foot from './Footer'
+import WritingPortfolioItem from './WritingPortfolioItem'
+
 
 // Portfolio Items 
 const items = [
@@ -10,31 +10,31 @@ const items = [
   { name: "Last One 4 real", description: "Last One", url: "" },
 ]
 
-// [{}, {}, {}].map() -> [<>, <>, <>]
 
 // Render Portfolio Items
 const renderItems = () => {
-  const CreativePortfolioItems = items.map(({ name, description, url }) => {
+  const WritingPortfolioItems = items.map(({ name, description, url }) => {
     return (
-      <CreativePortfolioItem
+      <WritingPortfolioItem
         name={name}
         description={description}
         url={url}
       />)
   })
 
-  return CreativePortfolioItems
+  return WritingPortfolioItems
 };
 
-const CreativePortfolio = (props) => {
+const WritingPortfolio = (props) => {
   return (
     <div>
-      <h1>Creative Portfolio Page</h1>
-      {renderItems()}
-      <foot />
+      <h1>
+        Welcome to my Writing Portfolio!
+      </h1>
     </div>
   )
-
 }
 
-export default CreativePortfolio 
+
+export default WritingPortfolio
+
