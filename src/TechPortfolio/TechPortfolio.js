@@ -32,7 +32,7 @@ const renderItems = () => {
 const TechPortfolio = (props) => {
   return (
     <div>
-      <h1>Technical Portfolio Page</h1>
+      <h1 className="tp__title">Technical Portfolio Page</h1>
       {renderItems()}
     </div>
   )

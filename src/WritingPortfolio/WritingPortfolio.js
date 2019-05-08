@@ -28,7 +28,7 @@ const renderItems = () => {
 const WritingPortfolio = (props) => {
   return (
     <div>
-      <h1>
+      <h1 className="wp__title">
         Welcome to my Writing Portfolio!
       </h1>
     </div>

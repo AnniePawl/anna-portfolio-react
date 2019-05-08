@@ -1,4 +1,5 @@
 import React from 'react'
+import './CreativePortfolio.css'
 import CreativePortfolioItem from './CreativePortfolioItem'
 
 // Portfolio Items 
@@ -27,8 +28,8 @@ const renderItems = () => {
 
 const CreativePortfolio = (props) => {
   return (
-    <div>
-      <h1>Creative Portfolio Page</h1>
+    <div className="cp">
+      <h1 className="cp__title">Creative Portfolio Page</h1>
       {renderItems()}
       <foot />
     </div>
