@@ -4,7 +4,7 @@ const Contact = (props) => {
   return (
     <div>
       <h1>
-        The Resume Page!
+        Contact Me
       </h1>
       <input
       />
