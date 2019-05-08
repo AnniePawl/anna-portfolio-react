@@ -1,6 +1,7 @@
 import React from 'react'
 import './CreativePortfolio.css'
 import CreativePortfolioItem from './CreativePortfolioItem'
+import Footer from '../Footer/Footer'
 
 // Portfolio Items 
 const items = [
@@ -31,7 +32,7 @@ const CreativePortfolio = (props) => {
     <div className="cp">
       <h1 className="cp__title">Creative Portfolio Page</h1>
       {renderItems()}
-      <foot />
+      <Footer />
     </div>
   )
 

@@ -1,5 +1,6 @@
 import React from 'react'
 import WritingPortfolioItem from './WritingPortfolioItem'
+import Footer from '../Footer/Footer'
 
 
 // Portfolio Items 
@@ -31,6 +32,12 @@ const WritingPortfolio = (props) => {
       <h1 className="wp__title">
         Welcome to my Writing Portfolio!
       </h1>
+
+      {/* Footer */}
+      <div className="footer">
+        <Footer />
+      </div>
+
     </div>
   )
 }

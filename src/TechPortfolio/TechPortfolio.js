@@ -1,18 +1,32 @@
 import React from 'react'
 import TechPortfolioItem from './TechlPortfolioItem'
 
-
-// Portfolio Items 
+// Tech Portfolio Items 
 const items = [
   {
     name: "Calcmon",
     description: "An Educational Game for Kids!",
     url: "",
-    src: "./Images/happy-calcmon.png"
+    // src: "./Images/happy-calcmon.png"
   },
-  { name: "More", description: "More more more", url: "" },
-  { name: "Last One", description: "Last One", url: "" },
-  { name: "Last One 4 real", description: "Last One", url: "" },
+
+  {
+    name: "Toolbox",
+    description: "More more more",
+    url: ""
+  },
+
+  {
+    name: "Squirrel Away",
+    description: "Last One",
+    url: ""
+  },
+
+  {
+    name: "Last One 4 real",
+    description: "Last One",
+    url: ""
+  },
 ]
 
 

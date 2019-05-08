@@ -1,5 +1,6 @@
 import React from 'react'
 import './TechPortfolio.css'
+import Footer from '../Footer/Footer'
 
 const TechPortfolioItem = ({ url, name, description, src }) => {
   return (
@@ -9,6 +10,12 @@ const TechPortfolioItem = ({ url, name, description, src }) => {
         <p className="tech-item_description">{description}</p>
         <img src={src} />
       </a>
+
+      {/* Footer */}
+      <div className="footer">
+        <Footer />
+      </div>
+
     </div>
   )
 }
