@@ -1,6 +1,6 @@
 import React from 'react'
 import CreativePortfolioItem from './CreativePortfolioItem'
-import foot from './Footer'
+import foot from '../Footer'
 
 // Portfolio Items 
 const items = [

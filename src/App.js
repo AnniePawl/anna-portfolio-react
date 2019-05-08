@@ -3,10 +3,10 @@ import { BrowserRouter, Route, Link } from 'react-router-dom'
 import './App.css'
 import NavBar from './NavBar/NavBar'
 import Home from './Home';
-import About from './About'
-import Resume from './Resume'
-import TechPortfolio from './TechPortfolio'
-import CreativePortfolio from './CreativePortfolio'
+import About from './About/About'
+import Contact from './Contact/Contact'
+import TechPortfolio from './TechPortfolio/TechPortfolio'
+import CreativePortfolio from './CreativePortfolio/CreativePortfolio'
 import WritingPortfolio from './WritingPortfolio'
 
 function App() {
