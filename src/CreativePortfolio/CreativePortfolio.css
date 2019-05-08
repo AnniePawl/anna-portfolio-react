@@ -1,7 +1,21 @@
-.cp {
-  background: yellow;
+body {
+  background:yellow;
 }
 
 .cp__title {
-  color:palevioletred;
+  color: brown;
+}
+
+.cp__projectsHeading {
+  color: blue;
+
+}
+
+.cp__publicationsHeading {
+  color:green;
+
+}
+
+.cp__fiberArtsHeading {
+  color: purple;
 }

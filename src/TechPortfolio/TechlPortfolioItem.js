@@ -9,9 +9,9 @@ const TechPortfolioItem = ({ url, name, description, src }) => {
         <p className="tech-item_description">{description}</p>
         <img src={src} />
       </a>
-
     </div>
   )
 }
+
 
 export default TechPortfolioItem

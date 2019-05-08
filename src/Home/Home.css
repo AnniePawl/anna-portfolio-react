@@ -1,3 +1,7 @@
+body {
+  background: yellow;
+}
+
 .home__title {
   color: blueviolet;
 }
