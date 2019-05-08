@@ -23,7 +23,8 @@ function App() {
         <Route path="/WritingPortfolio" component={WritingPortfolio} />
         <Route path="/CreativePortfolio" component={CreativePortfolio} />
         {/* Should footer haver route? */}
-        <Route path="/Footer" component={Footer} />
+        {/* <Route path="/Footer" component={Footer} /> */}
+        <Footer />
       </div>
     </BrowserRouter >
   );
