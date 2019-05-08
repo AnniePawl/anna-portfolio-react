@@ -29,16 +29,25 @@
     - Display cover photo of relevant projects
     - Breif description of each project
 
-4. Creative Portfolio
+4. Tecnical Portfolio Item
+    - Display Projects: name, image, description, url
+
+5. Creative Portfolio
     - Graphic Design Section 
     - Embroidery Section
     - Links to: Instagram, Dribble, Behance
 
-5. Writing Portfolio
+6. Creative Portfolio Item 
+    - Display Projects: name, image, description, url
+
+7. Writing Portfolio
     - Link to Medium 
     - Published Work Samples (image)
 
-6. About Page 
+8. Writing Portfolio Item 
+    - Display published works: name, image, description, url
+
+9. About Page 
     - Breif bio, background - why coding/ design?
     - Education
     - Experience 
