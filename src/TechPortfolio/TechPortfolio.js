@@ -89,6 +89,7 @@ const TechPortfolio = (props) => {
       {renderItems(projects)}
       <h2 className="tp__publicationsHeading">Publications</h2>
       {renderItems(publications)}
+      <style>{`body {background-color: red}`}</style>
     </div>
   )
 }

@@ -6,7 +6,8 @@ import fiberArtItem from './FiberArtItem'
 // Fiber Arts Items
 const fiberArts = [
   {
-    name: "Calcmon",
+    src: "./CreativeImages/poodles.png",
+    name: "Fibre Calc",
     description: "An Educational Game for Kids!",
   },
 
@@ -86,9 +87,10 @@ const publications = [
 
 // Render Portfolio Items
 const renderItems = (items) => {
-  const CreativePortfolioItems = items.map(({ name, description, url }) => {
+  const CreativePortfolioItems = items.map(({ src, name, description, url }) => {
     return (
       <CreativePortfolioItem
+        src={src}
         name={name}
         description={description}
         url={url}
