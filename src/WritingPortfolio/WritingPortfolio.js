@@ -1,17 +1,10 @@
 import React from 'react'
+import './WritingPortfolio.css'
 import WritingPortfolioItem from './WritingPortfolioItem'
-
-// Portfolio Items 
-const items = [
-  { name: "Anna", description: "Anna's Name", url: "" },
-  { name: "More", description: "More more more", url: "" },
-  { name: "Last One", description: "Last One", url: "" },
-  { name: "Last One 4 real", description: "Last One", url: "" },
-]
 
 
 // Render Portfolio Items
-const renderItems = () => {
+const renderItems = (items) => {
   const WritingPortfolioItems = items.map(({ name, description, url }) => {
     return (
       <WritingPortfolioItem
@@ -30,13 +23,16 @@ const WritingPortfolio = (props) => {
       <h1 className="wp__title">
         Welcome to my Writing Portfolio!
       </h1>
+      {renderItems(publications)}
     </div>
   )
 }
+
 // Publication Items 
 const publications = [
   {
-    name: "Leading the Way with Redi",
+    src: "",
+    name: "Leading the Way with Redis",
     description: "Checkout my piece published in Hacker Noon",
     url: "https://hackernoon.com/redis-gamification-60e49b5494ae",
   },
