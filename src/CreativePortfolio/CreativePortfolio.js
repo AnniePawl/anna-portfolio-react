@@ -7,9 +7,46 @@ import fiberArtItem from './FiberArtItem'
 const fiberArts = [
   {
     src: "./CreativeImages/poodles.png",
-    name: "Fibre Calc",
+    name: "Poodle",
+    description: "Poodle Embroidery"
+  },
+
+  {
+    src: "./CreativeImages/jellyfish.png",
+    name: "Jellyfish",
     description: "An Educational Game for Kids!",
   },
+
+  {
+    src: "./CreativeImages/music-note.png",
+    name: "Music Note",
+    description: "An Educational Game for Kids!",
+  },
+
+  {
+    src: "./CreativeImages/ boo.png",
+    name: "Boo",
+    description: "I'm here for the boos",
+  },
+
+  {
+    src: "./CreativeImages/ bamboo.png",
+    name: "Bamboo",
+    description: "Bamboo",
+  },
+
+  {
+    src: "./CreativeImages/ hamsa.png",
+    name: "Hamsa",
+    description: "Hamsa",
+  },
+
+  {
+    src: "./CreativeImages/ polarbear.png",
+    name: "Polar Bear",
+    description: "A bear!",
+  },
+
 
   {
     name: "Toolbox",
@@ -50,19 +87,18 @@ const projects = [
   },
 ]
 
-// Creative Publication Items 
+// Publication Items 
 const publications = [
   {
-    name: "Calcmon",
-    description: "An Educational Game for Kids!",
-    url: "",
-    // src: "./Images/happy-calcmon.png"
+    name: "Leading the Way with Redi",
+    description: "Checkout my piece published in Hacker Noon",
+    url: "https://hackernoon.com/redis-gamification-60e49b5494ae",
   },
 
   {
-    name: "Toolbox",
-    description: "More more more",
-    url: ""
+    name: "Bringing Back the Barter Economy",
+    description: "Published in UX Collective",
+    url: "https://uxdesign.cc/bringbarterback-72b530ba1c59"
   },
 
   {

@@ -33,7 +33,27 @@ const WritingPortfolio = (props) => {
     </div>
   )
 }
+// Publication Items 
+const publications = [
+  {
+    name: "Leading the Way with Redi",
+    description: "Checkout my piece published in Hacker Noon",
+    url: "https://hackernoon.com/redis-gamification-60e49b5494ae",
+  },
 
+  {
+    name: "Bringing Back the Barter Economy",
+    description: "Published in UX Collective",
+    url: "https://uxdesign.cc/bringbarterback-72b530ba1c59"
+  },
+
+  {
+    name: "Testing",
+    description: "Testing, testing, 123",
+    url: ""
+  },
+
+]
 
 export default WritingPortfolio
 

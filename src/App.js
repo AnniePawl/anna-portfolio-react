@@ -24,6 +24,7 @@ function App() {
         <Route path="/CreativePortfolio" component={CreativePortfolio} />
         {/* Should footer haver route? */}
         {/* <Route path="/Footer" component={Footer} /> */}
+
         <Footer />
       </div>
     </BrowserRouter >
