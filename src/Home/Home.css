@@ -1,7 +1,88 @@
-body {
-  background:white;
+.home_bottom_rectangle {
+  height: 250px;
+  width: 100%;
+  background-color: #187DAA;
 }
 
-.home__title {
-  color:black;
+.home_circles {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  -webkit-transform: translate(0, -125px);
+          transform: translate(0, -125px);
 }
+
+.home_half_circles {
+  position: relative;
+  z-index: 1;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  align-items: center;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  -webkit-transform: translate(0, -375px);
+          transform: translate(0, -375px);
+}
+
+.home_circle {
+  height: 250px;
+  width: 250px;
+  border-radius: 50%;
+  background-color: white;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.half_circle {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  height: 125px;
+  width: 250px;
+  border-radius: 125px 125px 0 0;
+  background: #EF5030;
+}
+
+.inner_circle {
+  -webkit-transform: translate(0, 18px);
+          transform: translate(0, 18px);
+  height: 215px;
+  width: 215px;
+  border-radius: 50%;
+  background-color: #333333;
+  opacity: .7;
+}
+/*# sourceMappingURL=Home.css.map */
