@@ -1,11 +1,14 @@
 import React from 'react'
+import { withRouter } from 'react-router-dom'
+import { Link } from 'react-router-dom'
+
 import './Home.scss'
 
 function Home() {
   return (
     <div className='home'>
       <h1>Home</h1>
-      <div home_bottom_container>
+      <div className='home_bottom_container'>
 
 
         <div className='home_bottom_rectangle'>
@@ -91,4 +94,4 @@ function Home() {
   )
 }
 
-export default Home
+export default withRouter(Home)

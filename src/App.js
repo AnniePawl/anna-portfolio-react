@@ -1,7 +1,8 @@
 // IMPORTS
 import React from 'react';
-import { BrowserRouter, Route, Link } from 'react-router-dom'
-import './Home/Home'
+import { BrowserRouter as Router, Route } from "react-router-dom";
+import Home from './Home/Home'
+import About from './About/About'
 import './App.css'
 
 
@@ -10,15 +11,17 @@ import './App.css'
 function App() {
   return (
     <div className="App">
-      <BrowserRouter>
+      <Router>
 
-        <h1>It's working</h1>
-        <Home />
 
-        {/* <Route path="/" exact component={Home} /> */}
-        {/* <Route path="/About" component={About} /> */}
+        <Route path="/" >
+          <Home />
+        </Route>
 
-      </BrowserRouter >
+
+        <Route path="/About" component={About} ></Route>
+
+      </Router >
     </div>
   );
 }
