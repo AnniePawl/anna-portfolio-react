@@ -1,13 +1,15 @@
 import React from 'react'
 import { withRouter } from 'react-router-dom'
 import { Link } from 'react-router-dom'
+import Banner from './Banner'
 
 import './Home.scss'
 
 function Home() {
   return (
     <div className='home'>
-      <h1>Home</h1>
+      <Banner />
+
       <div className='home_bottom_container'>
 
 
