@@ -1,0 +1,9 @@
+{
+    "version": 3,
+    "mappings": "AAAA,AAAA,qBAAqB,CAAC;EACpB,gBAAgB,EAAC,IAAI;EACrB,MAAM,EAAC,KAAK;EACZ,KAAK,EAAC,IAAI;CACX",
+    "sources": [
+        "TechnicalProjects.scss"
+    ],
+    "names": [],
+    "file": "TechnicalProjects.css"
+}

@@ -2,6 +2,7 @@ import React from 'react'
 import { withRouter } from 'react-router-dom'
 import { Link } from 'react-router-dom'
 import Pom from '../../assets/pomegranate/Pom'
+import TechnicalProjects from '../TechnicalProjects/TechnicalProjects'
 import './styles/Home.scss'
 
 class Home extends React.Component {
@@ -60,6 +61,11 @@ class Home extends React.Component {
             </Link>
             <h1>Embroidery</h1>
           </div>
+        </div>
+
+        {/* Technical Projects Section  */}
+        <div>
+          < TechnicalProjects />
         </div>
 
 
