@@ -9,11 +9,10 @@ class Home extends React.Component {
     return (
 
       <div>
-        <h1>Home</h1>
 
         <div className='home_container'>
           {/* About Me */}
-          <div>
+          <div className='home__button'>
             <Link to="/">
               <Pom />
             </Link>
@@ -21,15 +20,15 @@ class Home extends React.Component {
           </div>
 
           {/* CSS ANIMATIONS */}
-          <div>
-            <Link to="/">
+          <div className='home__button'>
+            <Link to="/css-animations">
               <Pom />
             </Link>
             <h1>CSS Animations</h1>
           </div>
 
           {/* Technical Projects */}
-          <div>
+          <div className='home__button'>
             <Link to="/">
               <Pom />
             </Link>
@@ -38,7 +37,7 @@ class Home extends React.Component {
 
 
           {/* Written Work */}
-          <div>
+          <div className='home__button'>
             <Link to="/">
               <Pom />
             </Link>
@@ -47,7 +46,7 @@ class Home extends React.Component {
 
 
           {/* Graphic Desin */}
-          <div>
+          <div className='home__button'>
             <Link to="/">
               <Pom />
             </Link>
@@ -55,7 +54,7 @@ class Home extends React.Component {
           </div>
 
           {/* Embroidery */}
-          <div>
+          <div className='home__button'>
             <Link to="/">
               <Pom />
             </Link>
