@@ -1,4 +1,4 @@
-import React from 'react'
+import React from './node_modules/react'
 import './Banner.scss'
 
 function Banner() {

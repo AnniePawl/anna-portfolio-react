@@ -1,11 +1,11 @@
-import React from 'react'
-import { withRouter } from 'react-router-dom'
-import { Link } from 'react-router-dom'
+import React from './node_modules/react'
+import { withRouter } from './node_modules/react-router-dom'
+import { Link } from './node_modules/react-router-dom'
 import Banner from './Banner'
 
 import './Home.scss'
 
-function Home() {
+function Home2() {
   return (
     <div className='home'>
       <Banner />
@@ -96,4 +96,4 @@ function Home() {
   )
 }
 
-export default withRouter(Home)
+export default withRouter(Home2)

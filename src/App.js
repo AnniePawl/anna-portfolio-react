@@ -1,11 +1,9 @@
 // IMPORTS
 import React from 'react';
 import { BrowserRouter as Router, Route } from "react-router-dom";
-import Home from './Home/Home'
-import About from './About/About'
+import Home from './components/Home/Home'
+import About from './components/About/About'
 import './App.css'
-
-
 
 
 function App() {
@@ -13,13 +11,12 @@ function App() {
     <div className="App">
       <Router>
 
-
         <Route path="/" >
           <Home />
         </Route>
 
 
-        <Route path="/About" component={About} ></Route>
+        {/* <Route path="/About" component={About} ></Route> */}
 
       </Router >
     </div>
