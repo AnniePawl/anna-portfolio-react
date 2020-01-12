@@ -6,27 +6,28 @@ import TechnicalProjects from '../TechnicalProjects/TechnicalProjects'
 import WrittenWork from '../WrittenWork/WrittenWork'
 import './styles/Home.scss'
 
+import binary_heart from '../../assets/blue-binary-heart.svg'
 class Home extends React.Component {
   render() {
     return (
 
       <div>
 
-        <div className='home_container'>
+        <div className='home__container'>
           {/* About Me */}
           <div className='home__button'>
             <Link to="/">
               <Pom />
             </Link>
-            <h1>About Me</h1>
+            <h1 className='home__header'>About Me</h1>
           </div>
 
           {/* CSS ANIMATIONS */}
           <div className='home__button'>
             <Link to="/css-animations">
-              <Pom />
+              <img src={binary_heart}></img>
             </Link>
-            <h1>CSS Animations</h1>
+            <h1 className='home__header'>CSS Animations</h1>
           </div>
 
           {/* Technical Projects */}
@@ -34,7 +35,7 @@ class Home extends React.Component {
             <Link to="/">
               <Pom />
             </Link>
-            <h1>Technical Projects</h1>
+            <h1 className='home__header'>Technical Projects</h1>
           </div>
 
 
@@ -43,7 +44,7 @@ class Home extends React.Component {
             <Link to="/">
               <Pom />
             </Link>
-            <h1>Written Work</h1>
+            <h1 className='home__header'>Written Work</h1>
           </div>
 
 
@@ -52,7 +53,7 @@ class Home extends React.Component {
             <Link to="/">
               <Pom />
             </Link>
-            <h1>Graphic Design</h1>
+            <h1 className='home__header'>Graphic Design</h1>
           </div>
 
           {/* Embroidery */}
@@ -60,7 +61,7 @@ class Home extends React.Component {
             <Link to="/">
               <Pom />
             </Link>
-            <h1>Embroidery</h1>
+            <h1 className='home__header'>Embroidery</h1>
           </div>
         </div>
 

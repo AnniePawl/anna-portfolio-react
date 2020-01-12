@@ -1,4 +1,4 @@
-.home_container {
+.home__container {
   display:flex;
   flex-wrap:wrap;
   justify-content: center;
@@ -6,5 +6,10 @@
 }
 
 .home__button {
-  margin:1em;
+
+
+}
+
+.home__header {
+  font-family: Oswald;
 }
