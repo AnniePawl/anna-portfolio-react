@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/anna-portfolio-react/static/css/main.9f9b2ebc.chunk.css",
+    "main.js": "/anna-portfolio-react/static/js/main.9f20a23a.chunk.js",
+    "main.js.map": "/anna-portfolio-react/static/js/main.9f20a23a.chunk.js.map",
+    "runtime~main.js": "/anna-portfolio-react/static/js/runtime~main.ce85f36e.js",
+    "runtime~main.js.map": "/anna-portfolio-react/static/js/runtime~main.ce85f36e.js.map",
+    "static/js/2.82a6fe98.chunk.js": "/anna-portfolio-react/static/js/2.82a6fe98.chunk.js",
+    "static/js/2.82a6fe98.chunk.js.map": "/anna-portfolio-react/static/js/2.82a6fe98.chunk.js.map",
+    "index.html": "/anna-portfolio-react/index.html",
+    "precache-manifest.13749d70b7a4a045de989999cb1569c1.js": "/anna-portfolio-react/precache-manifest.13749d70b7a4a045de989999cb1569c1.js",
+    "service-worker.js": "/anna-portfolio-react/service-worker.js",
+    "static/css/main.9f9b2ebc.chunk.css.map": "/anna-portfolio-react/static/css/main.9f9b2ebc.chunk.css.map"
+  }
+}
