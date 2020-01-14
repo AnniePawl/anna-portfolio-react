@@ -1,4 +1,4 @@
-.home_container {
+.home__container {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -12,7 +12,7 @@
           align-items: center;
 }
 
-.home__button {
-  margin: 1em;
+.home__header {
+  font-family: Oswald;
 }
 /*# sourceMappingURL=Home.css.map */

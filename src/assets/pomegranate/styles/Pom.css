@@ -1,6 +1,8 @@
 .total_pom {
   -webkit-transform: translate(-43px, 10px);
           transform: translate(-43px, 10px);
+  -webkit-transform: scale(0.6);
+          transform: scale(0.6);
 }
 
 .pom_base {

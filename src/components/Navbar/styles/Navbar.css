@@ -1,1 +1,45 @@
-/* No CSS *//*# sourceMappingURL=Navbar.css.map */
+.nav {
+  top: 0;
+  z-index: 2;
+  position: fixed;
+  height: 45px;
+  width: 100vw;
+  background-color: #ff9b80;
+}
+
+.navbar > ul {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: flex-start;
+  list-style-type: none;
+  font-family: 'Oswald', sans-serif;
+  font-weight: 300;
+  text-transform: uppercase;
+  margin-top: 11px;
+  font-size: .9em;
+}
+
+.navbar > ul > li {
+  margin-right: 30px;
+}
+
+.navbar > ul > li > a {
+  text-decoration: none;
+  color: #3e3f40;
+}
+
+.navbar > ul > li > a:hover {
+  color: white;
+}
+
+.navbar > ul > li > a:active {
+  font-weight: 500;
+}
+/*# sourceMappingURL=Navbar.css.map */

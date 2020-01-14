@@ -1,7 +1,6 @@
 import React from 'react'
 import { Link } from 'react-router-dom'
 import { withRouter } from 'react-router-dom'
-// import { HashLink } from 'react-router-hash-link'
 import './styles/Navbar.scss'
 
 function Navbar() {
@@ -11,20 +10,29 @@ function Navbar() {
       <nav className='navbar'>
         <ul>
 
-          {/* Anna Link */}
+          {/* Code */}
           <li>
-            <Link className="navbar__link" to="/">My Portfolio</Link>
+            <Link className="navbar__link" to="/css-animations">Code</Link>
           </li>
 
-          {/* This Project */}
-
+          {/* CSS Animations */}
           <li>
-            <Link className="navbar__link" to="/">This Project</Link>
+            <Link className="navbar__link" to="/css-animations">CSS Animations</Link>
           </li>
 
-          {/* More Animation Link*/}
+          {/* Graphic Design */}
           <li>
-            <Link className="navbar__link" to="/">More Animations</Link>
+            <Link className="navbar__link" to="/">Graphic Design</Link>
+          </li>
+
+          {/* Writing*/}
+          <li>
+            <Link className="navbar__link" to="/">Writing</Link>
+          </li>
+
+          {/* Emrbroidery*/}
+          <li>
+            <Link className="navbar__link" to="/">Embroidery</Link>
           </li>
 
         </ul>

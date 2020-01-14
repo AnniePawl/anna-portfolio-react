@@ -5,6 +5,7 @@ import Pom from '../../assets/pomegranate/Pom'
 import TechnicalProjects from '../TechnicalProjects/TechnicalProjects'
 import WrittenWork from '../WrittenWork/WrittenWork'
 import './styles/Home.scss'
+import Navbar from '../Navbar/Navbar'
 
 import binary_heart from '../../assets/blue-binary-heart.svg'
 class Home extends React.Component {
@@ -12,6 +13,7 @@ class Home extends React.Component {
     return (
 
       <div>
+        <Navbar />
 
         <div className='home__container'>
           {/* About Me */}
