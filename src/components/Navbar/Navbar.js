@@ -10,14 +10,14 @@ function Navbar() {
       <nav className='navbar'>
         <ul>
 
-          {/* Code */}
+          {/* Code: Link to GH*/}
           <li>
-            <Link className="navbar__link" to="/css-animations">Code</Link>
+            <a target='blank' href='https://github.com/AnniePawl'>Code</a>
           </li>
 
-          {/* CSS Animations */}
+          {/* CSS Animations: Link to GH Page */}
           <li>
-            <Link className="navbar__link" to="/css-animations">CSS Animations</Link>
+            <a target='blank' href='https://anniepawl.github.io/Pure-CSS-Animations/'>CSS Animations</a>
           </li>
 
           {/* Graphic Design */}

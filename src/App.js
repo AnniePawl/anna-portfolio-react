@@ -17,11 +17,19 @@ function App() {
           <Home />
         </Route>
 
-        {/* CSS Animation Route */}
-        <Route path='/css-animations' component={() => {
-          window.location.href = 'https://anniepawl.github.io/Pure-CSS-Animations/';
+        {/* Code Route */}
+        {/* <Route path='/code' component={() => {
+          window.open(window.href = 'https://github.com/AnniePawl');
           return null;
-        }} />
+        }} /> */}
+
+        {/* CSS Animation Route */}
+        {/* <Route path='/css-animations' component={() => {
+          window.open(window.href = 'https://anniepawl.github.io/Pure-CSS-Animations/');
+          return null;
+        }} /> */}
+
+
       </Router >
     </div>
   );
