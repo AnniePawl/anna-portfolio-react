@@ -6,6 +6,8 @@ import TechnicalProjects from '../TechnicalProjects/TechnicalProjects'
 import WrittenWork from '../WrittenWork/WrittenWork'
 import './styles/Home.scss'
 import Navbar from '../Navbar/Navbar'
+import Fog from './Fog/Fog'
+import sf from '../../assets/sf.svg'
 
 class Home extends React.Component {
   render() {
@@ -14,7 +16,11 @@ class Home extends React.Component {
       <div>
         <Navbar />
 
+        <Fog />
         <div className='home__container'>
+
+
+
 
 
           {/* Technical Projects Section  */}
