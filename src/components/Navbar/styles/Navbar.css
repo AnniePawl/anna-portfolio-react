@@ -2,8 +2,8 @@
   top: 0;
   z-index: 2;
   position: fixed;
-  height: 45px;
-  width: 100vw;
+  height: 50px;
+  width: 100%;
   background-color: #ff756e;
 }
 
@@ -19,12 +19,12 @@
   font-family: 'Oswald', sans-serif;
   font-weight: 300;
   text-transform: uppercase;
-  margin-top: 11px;
-  font-size: .8em;
+  margin-top: 14px;
+  font-size: .95em;
 }
 
 .navbar > ul > li {
-  margin-right: 20px;
+  margin-right: 25px;
 }
 
 .navbar > ul > li > a {

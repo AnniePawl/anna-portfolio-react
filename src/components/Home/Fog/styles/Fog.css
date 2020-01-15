@@ -1,41 +1,40 @@
 .sf_scene {
   height: 100vh;
-  width: 100vw;
-  background: url("../../../../assets/bridge3.svg");
-  background-repeat: no-repeat;
-  background-size: 110vw 100vh;
+  width: 100%;
 }
 
-.fog {
-  position: relative;
-  height: 50vh;
-  width: 100%;
+.bridge {
+  width: 105vw;
+  margin-top: 100px;
 }
 
 .fog__img {
   position: absolute;
-  height: 100vh;
+  bottom: 0;
+  height: 60vh;
+  margin: 10px;
   width: 300vw;
 }
 
 .fog__img__first {
   background: url("../../../../assets/fog.png");
-  opacity: .8;
+  opacity: .6;
   background-size: contain;
   background-position: center;
-  -webkit-animation: marquee 60s linear infinite;
-          animation: marquee 60s linear infinite;
+  -webkit-animation: fog 60s linear infinite;
+          animation: fog 60s linear infinite;
 }
 
 .fog__img__second {
+  background: url("../../../../assets/fog.png");
   opacity: .8;
   background-size: contain;
   background-position: center;
-  -webkit-animation: marquee 40s linear infinite;
-          animation: marquee 40s linear infinite;
+  -webkit-animation: fog 40s linear infinite;
+          animation: fog 40s linear infinite;
 }
 
-@-webkit-keyframes marquee {
+@-webkit-keyframes fog {
   0% {
     -webkit-transform: translate3d(0, 0, 0);
             transform: translate3d(0, 0, 0);
@@ -46,7 +45,7 @@
   }
 }
 
-@keyframes marquee {
+@keyframes fog {
   0% {
     -webkit-transform: translate3d(0, 0, 0);
             transform: translate3d(0, 0, 0);
