@@ -1,17 +1,17 @@
 {
   "files": {
-    "main.css": "/anna-portfolio-react/static/css/main.fc24a2ea.chunk.css",
-    "main.js": "/anna-portfolio-react/static/js/main.378bb124.chunk.js",
-    "main.js.map": "/anna-portfolio-react/static/js/main.378bb124.chunk.js.map",
+    "main.css": "/anna-portfolio-react/static/css/main.8cb25f22.chunk.css",
+    "main.js": "/anna-portfolio-react/static/js/main.d1ffd4e0.chunk.js",
+    "main.js.map": "/anna-portfolio-react/static/js/main.d1ffd4e0.chunk.js.map",
     "runtime~main.js": "/anna-portfolio-react/static/js/runtime~main.ce85f36e.js",
     "runtime~main.js.map": "/anna-portfolio-react/static/js/runtime~main.ce85f36e.js.map",
-    "static/js/2.4cea8460.chunk.js": "/anna-portfolio-react/static/js/2.4cea8460.chunk.js",
-    "static/js/2.4cea8460.chunk.js.map": "/anna-portfolio-react/static/js/2.4cea8460.chunk.js.map",
+    "static/js/2.ab872f48.chunk.js": "/anna-portfolio-react/static/js/2.ab872f48.chunk.js",
+    "static/js/2.ab872f48.chunk.js.map": "/anna-portfolio-react/static/js/2.ab872f48.chunk.js.map",
     "index.html": "/anna-portfolio-react/index.html",
-    "precache-manifest.b5aef0f18d68fcf84a6dccd0f9d65b54.js": "/anna-portfolio-react/precache-manifest.b5aef0f18d68fcf84a6dccd0f9d65b54.js",
+    "precache-manifest.6445e51aab55ce985f56a453900078bf.js": "/anna-portfolio-react/precache-manifest.6445e51aab55ce985f56a453900078bf.js",
     "service-worker.js": "/anna-portfolio-react/service-worker.js",
-    "static/css/main.fc24a2ea.chunk.css.map": "/anna-portfolio-react/static/css/main.fc24a2ea.chunk.css.map",
-    "static/media/Fog.scss": "/anna-portfolio-react/static/media/fog.92a58441.png",
-    "static/media/sf.svg": "/anna-portfolio-react/static/media/sf.4e60338c.svg"
+    "static/css/main.8cb25f22.chunk.css.map": "/anna-portfolio-react/static/css/main.8cb25f22.chunk.css.map",
+    "static/media/bridge3.svg": "/anna-portfolio-react/static/media/bridge3.036809a6.svg",
+    "static/media/Fog.scss": "/anna-portfolio-react/static/media/fog.92a58441.png"
   }
 }

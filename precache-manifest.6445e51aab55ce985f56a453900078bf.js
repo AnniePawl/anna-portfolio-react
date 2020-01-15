@@ -1,19 +1,19 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "87e705cd5bcba2ec016a03cd369fde8f",
+    "revision": "c24e000ea04815a595c377ff994fb765",
     "url": "/anna-portfolio-react/index.html"
   },
   {
-    "revision": "599cc6923310c43fa301",
-    "url": "/anna-portfolio-react/static/css/main.fc24a2ea.chunk.css"
+    "revision": "56a91dfc068ec61d1c8f",
+    "url": "/anna-portfolio-react/static/css/main.8cb25f22.chunk.css"
   },
   {
-    "revision": "e95bf25bb0eedf938898",
-    "url": "/anna-portfolio-react/static/js/2.4cea8460.chunk.js"
+    "revision": "ccdf32668da43520adee",
+    "url": "/anna-portfolio-react/static/js/2.ab872f48.chunk.js"
   },
   {
-    "revision": "599cc6923310c43fa301",
-    "url": "/anna-portfolio-react/static/js/main.378bb124.chunk.js"
+    "revision": "56a91dfc068ec61d1c8f",
+    "url": "/anna-portfolio-react/static/js/main.d1ffd4e0.chunk.js"
   },
   {
     "revision": "ed8aced75184821d4097",
@@ -26,9 +26,5 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "92a58441d50fe379f43944c6f793317f",
     "url": "/anna-portfolio-react/static/media/fog.92a58441.png"
-  },
-  {
-    "revision": "4e60338c6c21f17b6ee62ae6eda47e01",
-    "url": "/anna-portfolio-react/static/media/sf.4e60338c.svg"
   }
 ]);
