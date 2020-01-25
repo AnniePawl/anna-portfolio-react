@@ -1,11 +1,15 @@
 // Nav Bar Styles
+$background: #284e77;
+$font: white;
+$hover-color:#ff756e;
+
 .nav {
   top:0;
   z-index:2;
   position:fixed;
   height:50px;
   width:100%;
-  background-color:#ff756e;
+  background-color:$background;
 }
 
 .navbar > ul {
@@ -21,21 +25,16 @@
 
 .navbar > ul >li {
   margin-right:25px;
-// list-style-type: none;
-// font-family: 'Oswald', sans-serif;
-// font-weight: 400;
-// text-transform: uppercase;
 }
 
 .navbar > ul > li > a  {
   text-decoration: none;
-  // color:#1e4e7a;
-  color: #3e3f40;
+  color: $font;
 }
 
 .navbar > ul > li> a:hover {
-  color: white;
-  // font-weight: 400;
+  font-weight: 500;
+  color:$hover-color;
 }
 
 .navbar > ul > li> a:active {
@@ -43,8 +42,7 @@
 }
 
 .navbar > ul > li> a:visited {
-  // color:white;
-  // font-weight: 500;
+font-weight: 500;
 }
 
 

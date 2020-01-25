@@ -3,6 +3,11 @@
   width: 100%;
 }
 
+.name {
+  font-family: Oswald;
+  font-weight: 400;
+}
+
 .bridge {
   width: 105vw;
   margin-top: 100px;

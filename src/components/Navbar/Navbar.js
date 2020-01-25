@@ -27,7 +27,7 @@ function Navbar() {
 
           {/* Writing*/}
           <li>
-            <Link className="navbar__link" to="/">Writing</Link>
+            <a target='blank' href='https://medium.com/@annapawl'>Writing</a>
           </li>
 
           {/* Emrbroidery*/}

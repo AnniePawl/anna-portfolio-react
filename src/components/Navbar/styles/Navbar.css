@@ -4,7 +4,7 @@
   position: fixed;
   height: 50px;
   width: 100%;
-  background-color: #ff756e;
+  background-color: #284e77;
 }
 
 .navbar > ul {
@@ -29,14 +29,19 @@
 
 .navbar > ul > li > a {
   text-decoration: none;
-  color: #3e3f40;
-}
-
-.navbar > ul > li > a:hover {
   color: white;
 }
 
+.navbar > ul > li > a:hover {
+  font-weight: 500;
+  color: #ff756e;
+}
+
 .navbar > ul > li > a:active {
+  font-weight: 500;
+}
+
+.navbar > ul > li > a:visited {
   font-weight: 500;
 }
 /*# sourceMappingURL=Navbar.css.map */
