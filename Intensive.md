@@ -3,45 +3,54 @@ Dates 3/16-3/25
 
 Anna Pawl <br>
 Personal Portfolio <br>
-Old Project <br>
+New-ish Project <br>
 Solo <br>
 
 ### Description
-- This is an ongoing project that I want to improve in preparation for my career as a software engineer 
-- This project is built with React and will showcase skills and projects for potential employers 
+- Building a custom portfolio site in preparation for my career as a software engineer 
+- This project is built with React, which is becoming more prevalent in inndusty
+- Will showcase skills and projects for potential employers 
 - All custom, reflects my passion for UX/UI and graphic design 
 - Will feature technical projects, published articles, graphic design work, and css animations
 
-### Objective 1:  Custom landing page w/ animation of Golden Gate Bridge and nav to portfolio sections
+### Objective 1:  Design and implement custom landing page w/ animation of Golden Gate Bridge and nav to external portfolio sites and portfolio sections
 **Why do you want to meet this objective? How will it improve your project?** <br>
-- Visually captures my aesthetic 
-- Reflects who I am 
-- Shows off my graphic design skills 
-- Shows off my animation skills
-- Easy to navigate different to portfolio sections (design, published work, etc)
+- One-stop-shop : I have examples of my work all over the internet, I want all my work in one place, organized and easy to navigate
+- I want something more than MS portfolio for my future 
+- Visually captures my aesthetic, reflects who I am
+- Showcase passion for UX/UI, example of design ability
+- Shows off coded animations and graphic design 
 
 **How will you demonstrate completion of your objective?** 
-- Documentation: wireframes, mockup
+- Documentation: wireframes, mockup made in Adobe Xd
 - Features my custom graphic w/ working fog animation 
-- Nice nav w/ working links to various portfolio sections 
+- Nice nav w/ functioning links to various external portfolio site and sections 
 
-### Objective 2: Creative "About Me" Section 
+### Objective 2: Showcase Technical Ability 
 **Why do you want to meet this objective? How will it improve your project?** 
-- Give viewers a sense of who I am in a visually creative way : Interests, experience, skills 
-- Show viewers who I am w/ photo 
-- Links to various external portfolio sites (dribble, medium, etc)
+- Important to showcase technical skills to potential employers as I begin job hunt
+- Building site from scratch helps me practice skills I will use in industry
 **How will you demonstrate completion of your objective?** 
-- Appropriate mini bio w/ accompanying photo 
-- Easy to navigate links to external portfolios 
-- Conveys my skills and interests (coding and beyond) 
+- Build from scratch using React, which is becoming more prevalent in industry 
+- Easy to navigate button to GH Repo so recruiters can see more of my work 
+- Includes some of my technical projects- css animations, data visualizations 
 
-## Objective 3: Mobile Friendly
+## Objective 3: Showcase Design Ability 
 **Why do you want to meet this objective? How will it improve your project?** 
-- People often open things on their phone, but my protfilo is not mobile friendly yet :( 
-- Create media queries to everything looks nice on phone <br>
+- I am a frontend developer and UX/UI designer- important to showcase skills for potential employers 
+- I get excited by creative persuits - I want to practive design skills 
+**How will you demonstrate completion of your objective?** 
+- Portfolio site designed in Adobe Xd
+- Portfolio site not from template- totally custom from scratch
+- Uses custom graphics
+- Make my own animations 
+
+## Objective 4: Mobile- Friendly 
+**Why do you want to meet this objective? How will it improve your project?** 
+- People often open things on their phone, really needs to be mobile friendly
+- Good practice mastering dynamic design as a frontend developer 
 **How will you demonstrate completion of your objective?** 
 - Chrome inspector reflects nice formatting on various screen sizes 
-
 
 ### Evaluation
 **You must meet the following criteria in order to pass the intensive:**
@@ -64,4 +73,4 @@ Solo <br>
 **Student Name:**                
 > Anna Pawl / 03/16/20
 **Make School Advisor Name**
-> TBD
+> Megan(coach), Dani(intensive leader) 
