@@ -1,10 +1,10 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "4d53a8237bfcd67a4fe378b9ff130517",
+    "revision": "fb3cdcd2de28a0c87e347b9395a86d0b",
     "url": "/anna-portfolio-react/index.html"
   },
   {
-    "revision": "b8f4b6d4a699c1e36ddd",
+    "revision": "1b774efc29af2a4ac0b1",
     "url": "/anna-portfolio-react/static/css/main.166f7367.chunk.css"
   },
   {
@@ -12,8 +12,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/anna-portfolio-react/static/js/2.b9af95bd.chunk.js"
   },
   {
-    "revision": "b8f4b6d4a699c1e36ddd",
-    "url": "/anna-portfolio-react/static/js/main.32291199.chunk.js"
+    "revision": "1b774efc29af2a4ac0b1",
+    "url": "/anna-portfolio-react/static/js/main.34dd07e6.chunk.js"
   },
   {
     "revision": "ed8aced75184821d4097",
