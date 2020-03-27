@@ -1,3 +1,6 @@
+# Portfolio Site
+<img width="1674" alt="landing-pgae-screenshot" src="https://github.com/AnniePawl/anna-portfolio-react/blob/master/src/assets/bridge3.svg">
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
