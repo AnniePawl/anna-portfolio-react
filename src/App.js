@@ -1,6 +1,6 @@
 // IMPORTS
 import React from "react";
-import { BrowserRouter as Router, Route } from "react-router-dom";
+import { HashRouter as Router, Route } from "react-router-dom";
 import Home from "./components/Home/Home";
 import TechnicalProjects from "./components/TechnicalProjects/TechnicalProjects";
 import CreativePortfolio from "./components/CreativePortfolio/CreativePortfolio";
@@ -9,20 +9,16 @@ function App() {
   return (
     <div className="App">
       <Router>
+        {/* If the current URL is /about, this route is rendered
+            while the rest are ignored */}
         {/* Home Route */}
-        <Route path="/">
-          <Home />
-        </Route>
+        <Route path="/" exact component={Home} />
 
         {/* Technical Projects */}
-        <Route path="/technical-projects">
-          <TechnicalProjects />
-        </Route>
+        <Route path="/technical-projects" exact component={TechnicalProjects} />
 
         {/* Art/Design Route */}
-        <Route path="/art-design">
-          <CreativePortfolio />
-        </Route>
+        <Route path="/art-design" exact component={CreativePortfolio} />
 
         {/* CSS Animation Route */}
         {/* <Route path='/css-animations' component={() => {

@@ -1,13 +1,12 @@
 import React from "react";
-import { Link } from "react-router-dom";
-import { withRouter } from "react-router-dom";
+import { withRouter, Link } from "react-router-dom";
 import "./styles/Navbar.scss";
 
 function Navbar() {
   return (
     <div className="navbar">
       <ul>
-        {/* Code: Link to GH*/}
+        {/* Technical Projects*/}
         <li>
           <Link to="/technical-projects">Technical Projects</Link>
           {/* <a target="blank" href="https://github.com/AnniePawl">
@@ -17,9 +16,7 @@ function Navbar() {
 
         {/* Graphic Design */}
         <li>
-          <Link className="navbar__link" to="/art-design">
-            Art | Design
-          </Link>
+          <Link to="/art-design">Art | Design</Link>
         </li>
 
         {/* CSS Animations: Link to GH Page */}

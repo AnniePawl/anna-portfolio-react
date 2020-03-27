@@ -2,8 +2,8 @@ import React from "react";
 
 function CreativeProjects() {
   return (
-    <div className="technical__container">
-      <h1> Technical Projects Section </h1>
+    <div className="creative_container">
+      <h1> Creative Projects </h1>
     </div>
   );
 }
