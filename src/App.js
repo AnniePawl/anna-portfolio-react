@@ -2,6 +2,8 @@
 import React from "react";
 import { HashRouter as Router, Route } from "react-router-dom";
 import LandingPage from "../src/components/LandingPage/LandingPage";
+import About from "../src/components/About/About";
+
 import Home from "./components/Home/Home";
 import TechnicalProjects from "./components/TechnicalProjects/TechnicalProjects";
 import CreativePortfolio from "./components/CreativePortfolio/CreativePortfolio";
@@ -14,6 +16,9 @@ function App() {
             while the rest are ignored */}
         {/* Home Route */}
         <Route path="/" exact component={LandingPage} />
+
+        {/* About
+        <Route path="/about" exact component={About} /> */}
 
         {/* Technical Projects */}
         <Route path="/technical-projects" exact component={TechnicalProjects} />

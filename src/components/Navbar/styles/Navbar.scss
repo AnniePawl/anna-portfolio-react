@@ -1,7 +1,7 @@
 // Nav Bar Styles
 $background: #284e77;
-$font-color: white;
-$hover-color: #ff756e;
+$font-color: #ff756e;
+$hover-color: #ddefd7;
 
 @import "../../MediaQueries.scss";
 
@@ -10,9 +10,9 @@ $hover-color: #ff756e;
   z-index: 2;
   position: fixed;
   overflow: hidden;
-  height: 65px;
+  height: 70px;
   width: 100vw;
-  background-color: $background;
+  // background-color: $background;
   display: flex;
   justify-content: flex-end;
   align-items: center;
@@ -23,7 +23,7 @@ $hover-color: #ff756e;
   flex-direction: row;
   list-style-type: none;
   font-family: "Oswald", sans-serif;
-  font-weight: 300;
+  font-weight: 800;
   text-transform: uppercase;
   font-size: 1.45em;
 }
@@ -38,12 +38,11 @@ $hover-color: #ff756e;
 }
 
 .navbar > ul > li > a:hover {
-  font-weight: 500;
   color: $hover-color;
 }
 
 .navbar > ul > li > a:active {
-  font-weight: 500;
+  color: $hover-color;
 }
 
 .navbar > ul > li > a:visited {
