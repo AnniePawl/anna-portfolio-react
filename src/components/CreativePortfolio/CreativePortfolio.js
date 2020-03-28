@@ -9,6 +9,9 @@ function CreativeProjects() {
       <h1> Creative Projects </h1>
 
       <h2>Pure CSS Animations</h2>
+      <a target="blank" href="https://AnniePawl.github.io/Pure-CSS">
+        CSS Animations
+      </a>
     </div>
   );
 }
