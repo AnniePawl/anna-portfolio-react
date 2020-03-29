@@ -1,19 +1,15 @@
-import React from 'react'
-import './styles/Home.scss'
-import Navbar from '../Navbar/Navbar'
-import Fog from './Fog/Fog'
-
+import React from "react";
+import "./styles/Home.scss";
+import Navbar from "../Navbar/Navbar";
 
 class Home extends React.Component {
   render() {
     return (
-
       <div>
         <Navbar />
-        <Fog />
       </div>
-    )
+    );
   }
 }
 
-export default Home
+export default Home;

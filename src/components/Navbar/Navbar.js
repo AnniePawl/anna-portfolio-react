@@ -9,20 +9,19 @@ function Navbar() {
       <ul>
         {/* Home */}
         <li>
-          <Link to="/">Home</Link>
+          <HashLink smooth to="/#home">
+            Home
+          </HashLink>
         </li>
 
-        {/* About */}
-        {/* <li>
-          <Link to="/">About</Link>
-        </li> */}
+        {/* About Section*/}
         <li>
           <HashLink smooth to="/#about">
             About
           </HashLink>
         </li>
 
-        {/* Contact */}
+        {/* Contact Section */}
         <li>
           <HashLink smooth to="/#contact">
             Contact
@@ -31,42 +30,10 @@ function Navbar() {
 
         {/* Portfolio */}
         <li>
-          <Link to="/portfolio">Portfolio</Link>
+          <HashLink smooth to="/#portfolio">
+            Portfolio
+          </HashLink>
         </li>
-
-        {/* Technical Projects*/}
-        {/* <li>
-          <Link to="/technical-projects">Technical Projects</Link>
-        </li> */}
-
-        {/* Graphic Design */}
-        {/* <li>
-          <Link to="/art-design">Art | Design</Link>
-        </li> */}
-
-        {/* CSS Animations: Link to GH Page */}
-        {/* <li>
-          <a
-            target="blank"
-            href="https://anniepawl.github.io/Pure-CSS-Animations/"
-          >
-            CSS Animations
-          </a>
-        </li> */}
-
-        {/* Writing*/}
-        {/* <li>
-          <a target="blank" href="https://medium.com/@annapawl">
-            Writing
-          </a>
-        </li> */}
-
-        {/* Emrbroidery*/}
-        {/* <li>
-          <Link className="navbar__link" to="/">
-            Embroidery
-          </Link>
-        </li> */}
       </ul>
     </div>
   );

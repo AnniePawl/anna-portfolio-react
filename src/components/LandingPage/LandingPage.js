@@ -7,7 +7,7 @@ import "./styles/LandingPage.scss";
 
 function LandingPage() {
   return (
-    <div className="landing-page">
+    <div id="home" className="landing-page">
       <Navbar />
       <div className="moth-container">
         <img className="moth" src={moth} />
@@ -21,6 +21,12 @@ function LandingPage() {
       {/* Contact Section */}
       <div id="contact" className="contact-section">
         <Contact />
+      </div>
+      <div className="stars">
+        <div class="particle particle-1"></div>
+        <div class="particle particle-2"></div>
+        <div class="particle particle-3"></div>
+        <div class="particle particle-4"></div>
       </div>
     </div>
   );

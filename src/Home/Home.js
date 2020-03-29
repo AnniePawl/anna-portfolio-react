@@ -1,20 +1,16 @@
-import React from 'react'
-import Fog from '../components/Home/Fog/Fog'
-import sf from '../assets/sf.svg'
-import './Home.css'
+import React from "react";
+import Fog from "../components/About/Fog";
+import sf from "../assets/sf.svg";
+import "./Home.css";
 
-const Home = (props) => {
+const Home = props => {
   return (
     <div>
-      <h1 className="home__title">
-        This is the Home Page!
-      </h1>
+      <h1 className="home__title">This is the Home Page!</h1>
 
       <Fog />
+    </div>
+  );
+};
 
-    </div >
-  )
-}
-
-
-export default Home
+export default Home;

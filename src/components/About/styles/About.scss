@@ -1,0 +1,22 @@
+$background-color: #ccdeca;
+$blue: #284e77;
+$red: #ff756e;
+
+.about-section {
+  height: 100vh;
+  background-color: $background-color;
+}
+
+.about-content {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.about-heading {
+  font-family: "Oswald", sans-serif;
+  text-transform: uppercase;
+  font-weight: 800;
+  color: $blue;
+}
