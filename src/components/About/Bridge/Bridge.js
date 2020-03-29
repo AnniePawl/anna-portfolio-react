@@ -1,17 +1,19 @@
 import React from "react";
 import "./styles/Bridge.scss";
-import bridge from "../../../assets/bridge3.svg";
+import bridge from "../../../assets/bridge.svg";
 
 function Bridge() {
   return (
-    <div className="sf_scene">
+    <div>
+      {/* Bridge SVG */}
+      <div className="bridge">
+        <img alt="bridge" src={bridge}></img>
+      </div>
+
       {/* Fog */}
       <div className="fog">
-        {/* <div class="fog__img fog__img__first"></div>
-        <div class="fog__img fog__img__second"></div> */}
-
-        {/* Bridge SVG */}
-        <img alt="bridge" className="bridge" src={bridge}></img>
+        <div class="fog__img fog__img__first"></div>
+        <div class="fog__img fog__img__second"></div>
       </div>
     </div>
   );
