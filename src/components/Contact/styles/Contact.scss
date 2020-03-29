@@ -1,6 +1,27 @@
-$background-color: #ff948f;
+$red: #ff948f;
 
-.contact-section {
+.contact-container {
   height: 100vh;
-  background-color: $background-color;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  align-items: center;
+  // background-color: $red;
+}
+
+.button-container {
+}
+
+.media-buttons {
+  display: flex;
+  flex-direction: row;
+}
+
+.media-button {
+  height: 100px;
+  margin: 20px;
+}
+
+.media-button:hover {
+  transform: scale(1.2);
 }

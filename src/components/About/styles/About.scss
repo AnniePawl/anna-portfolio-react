@@ -7,9 +7,9 @@ $red: #ff756e;
   display: flex;
   flex-direction: column;
   background-color: $background-color;
-  border: 3px solid green;
+  // border: 3px solid green;
   .bridge-container {
-    border: 3px solid blue;
+    // border: 3px solid blue;
     justify-content: flex-end;
   }
 }
@@ -19,7 +19,7 @@ $red: #ff756e;
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  border: 2px solid red;
+  // border: 2px solid red;
 }
 
 .about-heading {
