@@ -1,17 +1,24 @@
 {
   "files": {
-    "main.css": "/anna-portfolio-react/static/css/main.166f7367.chunk.css",
-    "main.js": "/anna-portfolio-react/static/js/main.34dd07e6.chunk.js",
-    "main.js.map": "/anna-portfolio-react/static/js/main.34dd07e6.chunk.js.map",
+    "main.css": "/anna-portfolio-react/static/css/main.a0cc8d19.chunk.css",
+    "main.js": "/anna-portfolio-react/static/js/main.0c584bc1.chunk.js",
+    "main.js.map": "/anna-portfolio-react/static/js/main.0c584bc1.chunk.js.map",
     "runtime~main.js": "/anna-portfolio-react/static/js/runtime~main.ce85f36e.js",
     "runtime~main.js.map": "/anna-portfolio-react/static/js/runtime~main.ce85f36e.js.map",
-    "static/js/2.b9af95bd.chunk.js": "/anna-portfolio-react/static/js/2.b9af95bd.chunk.js",
-    "static/js/2.b9af95bd.chunk.js.map": "/anna-portfolio-react/static/js/2.b9af95bd.chunk.js.map",
+    "static/js/2.6a19cd0d.chunk.js": "/anna-portfolio-react/static/js/2.6a19cd0d.chunk.js",
+    "static/js/2.6a19cd0d.chunk.js.map": "/anna-portfolio-react/static/js/2.6a19cd0d.chunk.js.map",
     "index.html": "/anna-portfolio-react/index.html",
-    "precache-manifest.19235f3a761892ab9dfeaeda6248abcb.js": "/anna-portfolio-react/precache-manifest.19235f3a761892ab9dfeaeda6248abcb.js",
+    "precache-manifest.12780bcb83856672d562c0c18432b41a.js": "/anna-portfolio-react/precache-manifest.12780bcb83856672d562c0c18432b41a.js",
     "service-worker.js": "/anna-portfolio-react/service-worker.js",
-    "static/css/main.166f7367.chunk.css.map": "/anna-portfolio-react/static/css/main.166f7367.chunk.css.map",
-    "static/media/bridge3.svg": "/anna-portfolio-react/static/media/bridge3.036809a6.svg",
-    "static/media/Fog.scss": "/anna-portfolio-react/static/media/fog.92a58441.png"
+    "static/css/main.a0cc8d19.chunk.css.map": "/anna-portfolio-react/static/css/main.a0cc8d19.chunk.css.map",
+    "static/media/bridge.svg": "/anna-portfolio-react/static/media/bridge.fc7644dc.svg",
+    "static/media/codepen.svg": "/anna-portfolio-react/static/media/codepen.550df8cb.svg",
+    "static/media/dribbble.svg": "/anna-portfolio-react/static/media/dribbble.41b46cb1.svg",
+    "static/media/Bridge.scss": "/anna-portfolio-react/static/media/fog.92a58441.png",
+    "static/media/github.svg": "/anna-portfolio-react/static/media/github.350d4699.svg",
+    "static/media/insta.svg": "/anna-portfolio-react/static/media/insta.9fd0c7f5.svg",
+    "static/media/linkedin.svg": "/anna-portfolio-react/static/media/linkedin.60917ffd.svg",
+    "static/media/medium.svg": "/anna-portfolio-react/static/media/medium.f062cef2.svg",
+    "static/media/portfolio-moth.svg": "/anna-portfolio-react/static/media/portfolio-moth.c0bd1b14.svg"
   }
 }
