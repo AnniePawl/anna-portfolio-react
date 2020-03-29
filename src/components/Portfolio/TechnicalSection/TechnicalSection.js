@@ -1,12 +1,10 @@
 import React from "react";
-import Navbar from "../Navbar/Navbar";
 import TechnicalWriting from "./TechnicalWriting/TechnicalWriting";
 import "./styles/TechnicalProjects.scss";
 
-function TechnicalProjects() {
+function TechnicalSection() {
   return (
     <div className="technical__container">
-      <Navbar />
       <h1> Technincal Projects </h1>
       <a target="blank" href="https://anniepawl.github.io/Pure-CSS-Animations/">
         CSS Animations
@@ -17,4 +15,4 @@ function TechnicalProjects() {
   );
 }
 
-export default TechnicalProjects;
+export default TechnicalSection;

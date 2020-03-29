@@ -1,10 +1,29 @@
 import React from "react";
+import Navbar from "../Navbar/Navbar";
+import PortfolioSections from "./PortfolioSections";
+import TechnicalSection from "./TechnicalSection/TechnicalSection";
 import "./styles/Portfolio.scss";
 
 function Portfolio() {
   return (
-    <div id="portfolio" className="portfolio-section">
-      <h1>Portfolio</h1>
+    <div id="portfolio" className="portfolio-container">
+      <Navbar />
+
+      {/* Portfolio Sections Hero */}
+      <div className="portfolio-sections-container">
+        <PortfolioSections />
+      </div>
+
+      {/* Technical Projects Section */}
+      <div id="technical-section">
+        <TechnicalSection />
+      </div>
+
+      {/* Design Section */}
+      {/* <div id="design-section"></div> */}
+
+      {/* Writing Section */}
+      {/* <div id="writing-section"></div> */}
     </div>
   );
 }

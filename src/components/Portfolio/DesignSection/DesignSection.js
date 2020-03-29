@@ -2,7 +2,7 @@ import React from "react";
 import Navbar from "../Navbar/Navbar";
 import "./styles/CreativePortfolio.scss";
 
-function CreativeProjects() {
+function DesignSection() {
   return (
     <div className="creative_container">
       <Navbar />
@@ -16,7 +16,7 @@ function CreativeProjects() {
   );
 }
 
-export default CreativeProjects;
+export default DesignSection;
 
 // // Fiber Arts Items
 // const fiberArts = [

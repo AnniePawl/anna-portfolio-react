@@ -1,3 +1,38 @@
-.portfolio-section {
+.portfolio-sections-container {
+  height: 100vh;
+}
+
+.portfolio-sections > ul {
+  display: flex;
+  flex-direction: row;
+  list-style-type: none;
+  font-family: "Oswald", sans-serif;
+  font-weight: 800;
+  text-transform: uppercase;
+  font-size: 1.45em;
+}
+
+.portfolio-sections > ul > li {
+  margin-right: 40px;
+}
+
+.portfolio-sections > ul > li > a {
+  text-decoration: none;
+  color: red;
+}
+
+.portfolio-sections > ul > li > a:hover {
+  color: blue;
+}
+
+.portfolio-sections > ul > li > a:active {
+  color: blue;
+}
+
+.portfolio-sections > ul > li > a:visited {
+  font-weight: 500;
+}
+
+.technical-section {
   height: 100vh;
 }
