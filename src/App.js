@@ -15,13 +15,7 @@ function App() {
         <Route path="/" exact component={LandingPage} />
 
         {/* Portfolio Route */}
-        <Route path="/portfolio" exact component={Portfolio} />
-
-        {/* CSS Animation Route */}
-        {/* <Route path='/css-animations' component={() => {
-          window.open(window.href = 'https://anniepawl.github.io/Pure-CSS-Animations/');
-          return null;
-        }} /> */}
+        <Route exact path="/portfolio" component={Portfolio} />
       </Router>
     </div>
   );

@@ -2,6 +2,8 @@ import React from "react";
 import Navbar from "../Navbar/Navbar";
 import PortfolioSections from "./PortfolioSections";
 import TechnicalSection from "./TechnicalSection/TechnicalSection";
+import DesignSection from "./DesignSection/DesignSection";
+import WritingSection from "./WritingSection/WritingSection";
 import "./styles/Portfolio.scss";
 
 function Portfolio() {
@@ -20,10 +22,14 @@ function Portfolio() {
       </div>
 
       {/* Design Section */}
-      {/* <div id="design-section"></div> */}
+      <div id="design-section">
+        <DesignSection />
+      </div>
 
       {/* Writing Section */}
-      {/* <div id="writing-section"></div> */}
+      <div id="writing-section">
+        <WritingSection />
+      </div>
     </div>
   );
 }

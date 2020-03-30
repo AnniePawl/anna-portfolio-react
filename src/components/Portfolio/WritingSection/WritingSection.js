@@ -1,40 +1,34 @@
-import React from 'react'
-import './WritingPortfolio.css'
-import WritingPortfolioItem from './WritingPortfolioItem'
-
+import React from "react";
+import "./styles/WritingSection.scss";
+import WritingPortfolioItem from "./WritingPortfolioItem";
 
 // Render Portfolio Items
-const renderItems = (items) => {
+const renderItems = items => {
   const WritingPortfolioItems = items.map(({ name, description, url }) => {
     return (
-      <WritingPortfolioItem
-        name={name}
-        description={description}
-        url={url}
-      />)
-  })
+      <WritingPortfolioItem name={name} description={description} url={url} />
+    );
+  });
 
-  return WritingPortfolioItems
+  return WritingPortfolioItems;
 };
 
-const WritingPortfolio = (props) => {
+const WritingSection = props => {
   return (
-    <div>
-      <h1 className="wp__title">
-        Welcome to my Writing Portfolio!
-      </h1>
+    <div className="writing-section-container">
+      <h1 className="wp__title">Welcome to my Writing Portfolio!</h1>
       {renderItems(publications)}
     </div>
-  )
-}
+  );
+};
 
-// Publication Items 
+// Publication Items
 const publications = [
   {
     src: "",
     name: "Leading the Way with Redis",
     description: "Checkout my piece published in Hacker Noon",
-    url: "https://hackernoon.com/redis-gamification-60e49b5494ae",
+    url: "https://hackernoon.com/redis-gamification-60e49b5494ae"
   },
 
   {
@@ -47,9 +41,7 @@ const publications = [
     name: "Testing",
     description: "Testing, testing, 123",
     url: ""
-  },
+  }
+];
 
-]
-
-export default WritingPortfolio
-
+export default WritingSection;

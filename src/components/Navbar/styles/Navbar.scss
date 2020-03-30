@@ -3,7 +3,7 @@ $background: #284e77;
 $font-color: #ff756e;
 $hover-color: #ddefd7;
 
-@import "../../MediaQueries.scss";
+// @import "../../MediaQueries.scss";
 
 .navbar {
   top: 0;
@@ -30,6 +30,7 @@ $hover-color: #ddefd7;
 
 .navbar > ul > li {
   margin-right: 40px;
+  margin-top: 20px;
 }
 
 .navbar > ul > li > a {
@@ -50,16 +51,16 @@ $hover-color: #ddefd7;
 }
 
 // Media Queries
-.navbar > ul > li {
-  @media (max-width: $breakpoint-iphonex) {
-    font-size: 0.8em;
-    margin-right: 12px;
-  }
-}
+// .navbar > ul > li {
+//   @media (max-width: $breakpoint-iphonex) {
+//     font-size: 0.8em;
+//     margin-right: 12px;
+//   }
+// }
 
-.navbar > ul {
-  @media (max-width: $breakpoint-iphonex) {
-    margin-top: 16px;
-    margin-left: -10px;
-  }
-}
+// .navbar > ul {
+//   @media (max-width: $breakpoint-iphonex) {
+//     margin-top: 16px;
+//     margin-left: -10px;
+//   }
+// }

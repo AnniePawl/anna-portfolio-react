@@ -1,5 +1,5 @@
 import React from "react";
-import "./WritingPortfolio.css";
+// import "./WritingPortfolio.css";
 
 const WritingItem = ({ url, name, description }) => {
   return (

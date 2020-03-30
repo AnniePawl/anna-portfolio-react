@@ -1,17 +1,7 @@
-.creative__container {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-}
+$background-color: #ff9b96;
 
-h1 {
-  // display: flex;
-  // justify-content: center;
-  // align-items: center;
-  margin-top: 80px;
-  font-weight: 300;
-  font-family: Oswald;
-  font-size: 3em;
-  color: #3e3f40;
+.design-container {
+  width: 100vw;
+  height: 100vh;
+  background-color: $background-color;
 }

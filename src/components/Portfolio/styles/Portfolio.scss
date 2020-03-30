@@ -1,10 +1,20 @@
+$background-color: #426181;
+$text-color: #ff9b96;
+$hover-color: #ccdeca;
+
 .portfolio-sections-container {
   height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: $background-color;
 }
 
 .portfolio-sections > ul {
+  border: 3px solid $hover-color;
   display: flex;
   flex-direction: row;
+  justify-content: center;
   list-style-type: none;
   font-family: "Oswald", sans-serif;
   font-weight: 800;
@@ -13,20 +23,20 @@
 }
 
 .portfolio-sections > ul > li {
-  margin-right: 40px;
+  margin: 20px;
 }
 
 .portfolio-sections > ul > li > a {
   text-decoration: none;
-  color: red;
+  color: $text-color;
 }
 
 .portfolio-sections > ul > li > a:hover {
-  color: blue;
+  color: $hover-color;
 }
 
 .portfolio-sections > ul > li > a:active {
-  color: blue;
+  color: $hover-color;
 }
 
 .portfolio-sections > ul > li > a:visited {
