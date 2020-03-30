@@ -1,41 +1,34 @@
-import React from 'react';
-import WritingPortfolioItem from './WritingPortfolioItem'
-import './styles/WritingPortfolio.scss'
-
-
+import React from "react";
+import WritingPortfolioItem from "./WritingPortfolioItem";
+import "./styles/WrittenWork.scss";
 
 // Render Portfolio Items
-const renderItems = (items) => {
+const renderItems = items => {
   const WritingPortfolioItems = items.map(({ name, description, url }) => {
     return (
-      <WritingPortfolioItem
-        name={name}
-        description={description}
-        url={url}
-      />)
-  })
+      <WritingPortfolioItem name={name} description={description} url={url} />
+    );
+  });
 
-  return WritingPortfolioItems
+  return WritingPortfolioItems;
 };
 
-const WrittenWork = (props) => {
+const WrittenWork = props => {
   return (
-    <div>
-      <h1 className="written_work__header">
-        WRITTEN WORK
-      </h1>
+    <div className="written-work-container">
+      <h1 className="written_work__header">WRITTEN WORK</h1>
       {renderItems(publications)}
     </div>
-  )
-}
+  );
+};
 
-// Publication Items 
+// Publication Items
 const publications = [
   {
     src: "",
     name: "Leading the Way with Redis",
     description: "Checkout my piece published in Hacker Noon",
-    url: "https://hackernoon.com/redis-gamification-60e49b5494ae",
+    url: "https://hackernoon.com/redis-gamification-60e49b5494ae"
   },
 
   {
@@ -48,9 +41,7 @@ const publications = [
     name: "Testing",
     description: "Testing, testing, 123",
     url: ""
-  },
-
-]
-
+  }
+];
 
 export default WrittenWork;

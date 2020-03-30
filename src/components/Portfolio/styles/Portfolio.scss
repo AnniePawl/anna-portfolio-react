@@ -1,3 +1,48 @@
-.portfolio-section {
+$background-color: #426181;
+$text-color: #ff9b96;
+$hover-color: #ccdeca;
+
+.portfolio-sections-container {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: $background-color;
+}
+
+.portfolio-sections > ul {
+  border: 3px solid $hover-color;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  list-style-type: none;
+  font-family: "Oswald", sans-serif;
+  font-weight: 800;
+  text-transform: uppercase;
+  font-size: 1.45em;
+}
+
+.portfolio-sections > ul > li {
+  margin: 20px;
+}
+
+.portfolio-sections > ul > li > a {
+  text-decoration: none;
+  color: $text-color;
+}
+
+.portfolio-sections > ul > li > a:hover {
+  color: $hover-color;
+}
+
+.portfolio-sections > ul > li > a:active {
+  color: $hover-color;
+}
+
+.portfolio-sections > ul > li > a:visited {
+  font-weight: 500;
+}
+
+.technical-section {
   height: 100vh;
 }

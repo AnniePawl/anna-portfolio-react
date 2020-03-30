@@ -1,17 +1,17 @@
+$background-color: #ccdeca;
+
 .technical__container {
+  width: 100vw;
+  height: 100vh;
+  background-color: $background-color;
   display: flex;
-  flex-direction: column;
   justify-content: center;
   align-items: center;
+  font-family: Oswald;
 }
 
-h1 {
+.technical-content {
   // display: flex;
   // justify-content: center;
   // align-items: center;
-  margin-top: 80px;
-  font-weight: 300;
-  font-family: Oswald;
-  font-size: 3em;
-  color: #3e3f40;
 }

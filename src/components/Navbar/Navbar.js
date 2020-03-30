@@ -30,7 +30,7 @@ function Navbar() {
 
         {/* Portfolio */}
         <li>
-          <HashLink smooth to="/#portfolio">
+          <HashLink smooth to="/portfolio/#portfolio-section">
             Portfolio
           </HashLink>
         </li>

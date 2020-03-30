@@ -1,11 +1,9 @@
 import React from "react";
-import Navbar from "../Navbar/Navbar";
 import "./styles/CreativePortfolio.scss";
 
 function CreativeProjects() {
   return (
     <div className="creative_container">
-      <Navbar />
       <h1> Creative Projects </h1>
 
       <h2>Pure CSS Animations</h2>
