@@ -12,7 +12,7 @@ function Portfolio() {
       <Navbar />
 
       {/* Portfolio Sections Hero */}
-      <div className="portfolio-sections-container">
+      <div id="portfolio-section" className="portfolio-sections-container">
         <PortfolioSections />
       </div>
 

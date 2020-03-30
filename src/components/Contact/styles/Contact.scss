@@ -4,8 +4,13 @@ $red: #ff948f;
   height: 100vh;
   display: flex;
   flex-direction: column;
-  justify-content: flex-end;
+  justify-content: center;
   align-items: center;
+  h2 {
+    font-family: Oswald;
+    font-weight: 300;
+    color: $red;
+  }
   // background-color: $red;
 }
 

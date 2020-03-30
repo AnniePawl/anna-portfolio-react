@@ -16,7 +16,7 @@ const renderItems = items => {
 const WritingSection = props => {
   return (
     <div className="writing-section-container">
-      <h1 className="wp__title">Welcome to my Writing Portfolio!</h1>
+      <h1 className="wp__title">Written Work</h1>
       {renderItems(publications)}
     </div>
   );

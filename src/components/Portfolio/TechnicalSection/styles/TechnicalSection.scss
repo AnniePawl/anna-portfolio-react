@@ -1,12 +1,17 @@
-$background-color: #ff9b96;
+$background-color: #ccdeca;
 
-.design-container {
+.technical__container {
   width: 100vw;
   height: 100vh;
   background-color: $background-color;
   display: flex;
   justify-content: center;
-  flex-direction: column;
   align-items: center;
   font-family: Oswald;
+}
+
+.technical-content {
+  // display: flex;
+  // justify-content: center;
+  // align-items: center;
 }

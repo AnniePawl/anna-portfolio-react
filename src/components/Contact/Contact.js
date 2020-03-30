@@ -8,6 +8,7 @@ function Contact() {
     <div className="contact-container">
       <div className="form-container">{/* <ContactForm /> */}</div>
 
+      <h2>E | annampawl@gmail.com</h2>
       <div clasName="button-container">
         <Buttons />
       </div>

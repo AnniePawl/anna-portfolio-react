@@ -15,7 +15,7 @@ function App() {
         <Route path="/" exact component={LandingPage} />
 
         {/* Portfolio Route */}
-        <Route exact path="/portfolio" component={Portfolio} />
+        <Route path="/portfolio/" component={Portfolio} />
       </Router>
     </div>
   );
