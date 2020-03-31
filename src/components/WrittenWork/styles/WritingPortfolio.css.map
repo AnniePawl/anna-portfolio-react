@@ -1,9 +1,0 @@
-{
-    "version": 3,
-    "mappings": "AAAA,AAAA,qBAAqB,CAAA;EACnB,WAAW,EAAE,oBAAoB;CAAE",
-    "sources": [
-        "WritingPortfolio.scss"
-    ],
-    "names": [],
-    "file": "WritingPortfolio.css"
-}

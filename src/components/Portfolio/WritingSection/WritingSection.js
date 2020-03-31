@@ -1,23 +1,20 @@
 import React from "react";
+import WritingItem from "./WritingSectionItem";
 import "./styles/WritingSection.scss";
-import WritingPortfolioItem from "./WritingPortfolioItem";
 
 // Render Portfolio Items
 const renderItems = items => {
-  const WritingPortfolioItems = items.map(({ name, description, url }) => {
-    return (
-      <WritingPortfolioItem name={name} description={description} url={url} />
-    );
+  const WritingItems = items.map(({ img, title, description }) => {
+    return <WritingItem img={img} title={title} description={description} />;
   });
-
-  return WritingPortfolioItems;
+  return WritingItems;
 };
 
 const WritingSection = props => {
   return (
     <div className="writing-section-container">
-      <h1 className="wp__title">Written Work</h1>
-      {renderItems(publications)}
+      <h1>Written Work</h1>
+      <div className="writing-items">{renderItems(publications)}</div>
     </div>
   );
 };
@@ -25,22 +22,19 @@ const WritingSection = props => {
 // Publication Items
 const publications = [
   {
-    src: "",
-    name: "Leading the Way with Redis",
-    description: "Checkout my piece published in Hacker Noon",
-    url: "https://hackernoon.com/redis-gamification-60e49b5494ae"
+    img: "Leading the Way with Redis",
+    title: "Checkout my piece published in Hacker Noon",
+    description: "lalala"
   },
-
   {
-    name: "Bringing Back the Barter Economy",
-    description: "Published in UX Collective",
-    url: "https://uxdesign.cc/bringbarterback-72b530ba1c59"
+    img: "Leading the Way with Redis",
+    title: "Checkout my piece published in Hacker Noon",
+    description: "lalala"
   },
-
   {
-    name: "Testing",
-    description: "Testing, testing, 123",
-    url: ""
+    img: "Leading the Way with Redis",
+    title: "Checkout my piece published in Hacker Noon",
+    description: "lalala"
   }
 ];
 
