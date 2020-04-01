@@ -1,23 +1,29 @@
 import React from "react";
+import WritingItem from "./WritingSectionItem";
+import barter from "../../../assets/WritingImages/barter.png";
+import redis from "../../../assets/WritingImages/redis.png";
 import "./styles/WritingSection.scss";
-import WritingPortfolioItem from "./WritingPortfolioItem";
 
 // Render Portfolio Items
 const renderItems = items => {
-  const WritingPortfolioItems = items.map(({ name, description, url }) => {
+  const WritingItems = items.map(({ img, title, description, link }) => {
     return (
-      <WritingPortfolioItem name={name} description={description} url={url} />
+      <WritingItem
+        img={img}
+        title={title}
+        description={description}
+        link={link}
+      />
     );
   });
-
-  return WritingPortfolioItems;
+  return WritingItems;
 };
 
 const WritingSection = props => {
   return (
     <div className="writing-section-container">
-      <h1 className="wp__title">Written Work</h1>
-      {renderItems(publications)}
+      <h1>Written Work</h1>
+      <div className="writing-items">{renderItems(publications)}</div>
     </div>
   );
 };
@@ -25,23 +31,22 @@ const WritingSection = props => {
 // Publication Items
 const publications = [
   {
-    src: "",
-    name: "Leading the Way with Redis",
-    description: "Checkout my piece published in Hacker Noon",
-    url: "https://hackernoon.com/redis-gamification-60e49b5494ae"
-  },
-
-  {
-    name: "Bringing Back the Barter Economy",
+    img: barter,
+    title: "Bringing Back the Barter Economy",
     description: "Published in UX Collective",
-    url: "https://uxdesign.cc/bringbarterback-72b530ba1c59"
+    link: "https://uxdesign.cc/bringbarterback-72b530ba1c59"
   },
-
   {
-    name: "Testing",
-    description: "Testing, testing, 123",
-    url: ""
+    img: redis,
+    title: "Leading the Way with Redis",
+    description: "Published in HackerNoon",
+    link: "https://medium.com/hackernoon/redis-gamification-60e49b5494ae"
   }
+  // {
+  //   img: "",
+  //   title: "Drawing with Code",
+  //   description: "lalala"
+  // }
 ];
 
 export default WritingSection;
