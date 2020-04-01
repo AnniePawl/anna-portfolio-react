@@ -7,7 +7,10 @@ function About() {
     <div className="about-container">
       <div className="about-content">
         <h1 className="about-heading">About</h1>
-        <p>I am a software engineer, designer and illustrator living in NY.</p>
+        <p>
+          I am a software engineer and designer, living and working in San
+          Francisco.{" "}
+        </p>
       </div>
 
       <div className="bridge-container">
