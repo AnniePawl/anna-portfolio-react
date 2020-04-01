@@ -2,17 +2,22 @@ import React from "react";
 import "./styles/WritingSection.scss";
 import Card from "react-bootstrap/Card";
 
-const WritingItem = ({ img, title, description }) => {
+const WritingItem = ({ img, title, description, link }) => {
   return (
-    <Card style={{ width: "18rem" }}>
-      <Card.Img variant="top" src="holder.js/100px180" href={img} />
-      <Card.Body>
-        <Card.Title>{title}</Card.Title>
-        <Card.Text>{description}</Card.Text>
-        <button>Check it Out</button>
-        {/* <Button variant="primary">Go somewhere</Button> */}
-      </Card.Body>
-    </Card>
+    <div className="card">
+      <Card style={{ width: "18rem" }}>
+        <Card.Img variant="top" src={img} />
+        <Card.Body>
+          <Card.Title>{title}</Card.Title>
+          <Card.Text>{description}</Card.Text>
+          <div className="writing-button">
+            <a href={link} target="_blank">
+              Check it Out
+            </a>
+          </div>
+        </Card.Body>
+      </Card>
+    </div>
   );
 };
 

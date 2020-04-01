@@ -3,7 +3,7 @@ import React from "react";
 import { HashRouter as Router, Route } from "react-router-dom";
 import LandingPage from "../src/components/LandingPage/LandingPage";
 import Portfolio from "../src/components/Portfolio/Portfolio";
-
+import "./app.scss";
 function App() {
   return (
     <div className="App">
