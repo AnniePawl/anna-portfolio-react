@@ -24,15 +24,6 @@ function LandingPage() {
       <div id="contact" className="contact-section">
         <Contact />
       </div>
-<<<<<<< HEAD
-      <div className="stars">
-        <div class="particle particle-1"></div>
-        <div class="particle particle-2"></div>
-        <div class="particle particle-3"></div>
-        <div class="particle particle-4"></div>
-      </div>
-=======
->>>>>>> AnniePawl/Portfolio
     </div>
   );
 }
