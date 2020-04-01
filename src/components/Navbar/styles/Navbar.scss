@@ -1,7 +1,7 @@
 // Nav Bar Styles
 $background: #284e77;
 $font-color: #ff7f78;
-$hover-color: #ddefd7;
+$hover-color: #dcffd3;
 
 // @import "../../MediaQueries.scss";
 
@@ -12,7 +12,6 @@ $hover-color: #ddefd7;
   overflow: hidden;
   height: 70px;
   width: 100vw;
-  // background-color: $background;
   display: flex;
   justify-content: flex-end;
   align-items: center;
@@ -44,10 +43,6 @@ $hover-color: #ddefd7;
 
 .navbar > ul > li > a:active {
   color: $hover-color;
-}
-
-.navbar > ul > li > a:visited {
-  font-weight: 500;
 }
 
 // Media Queries
