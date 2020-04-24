@@ -5,7 +5,7 @@ import redis from "../../../assets/WritingImages/redis.png";
 import "./styles/WritingSection.scss";
 
 // Render Portfolio Items
-const renderItems = items => {
+const renderItems = (items) => {
   const WritingItems = items.map(({ img, title, description, link }) => {
     return (
       <WritingItem
@@ -19,7 +19,7 @@ const renderItems = items => {
   return WritingItems;
 };
 
-const WritingSection = props => {
+const WritingSection = (props) => {
   return (
     <div className="writing-section-container">
       <h1>Written Work</h1>
@@ -34,14 +34,14 @@ const publications = [
     img: barter,
     title: "Bringing Back the Barter Economy",
     description: "Published in UX Collective",
-    link: "https://uxdesign.cc/bringbarterback-72b530ba1c59"
+    link: "https://uxdesign.cc/bringbarterback-72b530ba1c59",
   },
   {
     img: redis,
     title: "Leading the Way with Redis",
     description: "Published in HackerNoon",
-    link: "https://medium.com/hackernoon/redis-gamification-60e49b5494ae"
-  }
+    link: "https://medium.com/hackernoon/redis-gamification-60e49b5494ae",
+  },
   // {
   //   img: "",
   //   title: "Drawing with Code",
