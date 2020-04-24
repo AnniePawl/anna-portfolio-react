@@ -9,21 +9,21 @@ function PortfolioSections() {
         {/* Technical Section */}
         <li>
           <HashLink smooth to="/portfolio/#technical-section">
-            Projects
+            Technical Section
           </HashLink>
         </li>
 
         {/* Design Section */}
         <li>
           <HashLink smooth to="/portfolio/#design-section">
-            Design
+            Design Section
           </HashLink>
         </li>
 
         {/* Writing Section */}
         <li>
           <HashLink smooth to="/portfolio/#writing-section">
-            Writing
+            Writing Section
           </HashLink>
         </li>
       </ul>

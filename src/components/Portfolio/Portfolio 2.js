@@ -1,7 +1,7 @@
 import React from "react";
 import Navbar from "../Navbar/Navbar";
 import PortfolioSections from "./PortfolioSections";
-import TechnicalSection from "./Projects/Projects";
+import TechnicalSection from "./TechnicalSection/TechnicalSection";
 import DesignSection from "./DesignSection/DesignSection";
 import WritingSection from "./WritingSection/WritingSection";
 import "./styles/Portfolio.scss";

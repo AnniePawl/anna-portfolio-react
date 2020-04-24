@@ -1,7 +1,8 @@
 import React from "react";
 import "./styles/TechnicalSection.scss";
+import Lime from "./Lime";
 
-function TechnicalSection() {
+function Projects() {
   return (
     <div className="technical__container">
       <div className="technical-content">
@@ -12,8 +13,11 @@ function TechnicalSection() {
         <h3>Upwardly Global</h3>
         <h3>Calcumon</h3>
       </div>
+      <div>
+        <Lime />
+      </div>
     </div>
   );
 }
 
-export default TechnicalSection;
+export default Projects;
