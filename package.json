@@ -1,7 +1,7 @@
 {
   "name": "custom-react-project",
   "version": "0.1.0",
-  "homepage": "http://AnniePawl.github.io/anna-portfolio-react",
+  "homepage": "https://anniepawl.github.io/anna-portfolio-react/"
   "private": true,
   "dependencies": {
     "axios": "^0.19.2",
