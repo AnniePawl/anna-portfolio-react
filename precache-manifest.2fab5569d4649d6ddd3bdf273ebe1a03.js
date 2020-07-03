@@ -1,19 +1,19 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "7293e0a12888a46f63035a38e08d156a",
+    "revision": "056d7f55264733fe937f7ff1d1ca5732",
     "url": "/anna-portfolio-react/index.html"
   },
   {
-    "revision": "934a6b5d0e275ac8151d",
-    "url": "/anna-portfolio-react/static/css/main.107d1539.chunk.css"
+    "revision": "ae6426a792c931f195b7",
+    "url": "/anna-portfolio-react/static/css/main.6dc0356d.chunk.css"
   },
   {
-    "revision": "e6ac3f96d2adfeb5d004",
-    "url": "/anna-portfolio-react/static/js/2.b3f82447.chunk.js"
+    "revision": "6da784aec959010318ba",
+    "url": "/anna-portfolio-react/static/js/2.e7ba9194.chunk.js"
   },
   {
-    "revision": "934a6b5d0e275ac8151d",
-    "url": "/anna-portfolio-react/static/js/main.ce31a5d3.chunk.js"
+    "revision": "ae6426a792c931f195b7",
+    "url": "/anna-portfolio-react/static/js/main.a80a0856.chunk.js"
   },
   {
     "revision": "ed8aced75184821d4097",
@@ -56,8 +56,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/anna-portfolio-react/static/media/medium.f062cef2.svg"
   },
   {
-    "revision": "c0bd1b14ebd14e44372d6687c9513718",
-    "url": "/anna-portfolio-react/static/media/portfolio-moth.c0bd1b14.svg"
+    "revision": "4af6cd133164c8846a3e716d8b964f5d",
+    "url": "/anna-portfolio-react/static/media/portfolio-moth.4af6cd13.svg"
   },
   {
     "revision": "f7fe6dedd4441163cfc6802354063696",
