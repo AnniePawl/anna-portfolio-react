@@ -1,48 +1,57 @@
-$background-color: #426181;
-$text-color: #ff9b96;
-$hover-color: #ccdeca;
+// $background-color: #426181;
+$background-color: #ffe8eb;
+$background-color2: #e7ff96;
+$heading-color: #499eb8;
+$text-color: #9debb4;
+$font-family: "Oswald", sans-serif;
+// $text-color: #e7ff96;
+$hover-color: #25697d;
 
-.portfolio-sections-container {
-  height: 100vh;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  background-color: $background-color;
+// .portfolio__section {
+// 	height: 100vh;
+// }
+
+.portfolio_sections__container {
+	height: 100vh;
+	background-color: $background-color;
+	display: flex;
+	flex-direction: row;
+	// justify-content: space-around;
 }
 
-.portfolio-sections > ul {
-  border: 3px solid $hover-color;
-  display: flex;
-  flex-direction: row;
-  justify-content: center;
-  list-style-type: none;
-  font-family: "Oswald", sans-serif;
-  font-weight: 800;
-  text-transform: uppercase;
-  font-size: 1.45em;
+.projects__list {
+	margin-top: 150px;
+	margin-left: 100px;
+	display: flex;
+	flex-direction: column;
 }
 
-.portfolio-sections > ul > li {
-  margin: 20px;
+.projects__heading {
+	text-transform: uppercase;
+	font-family: $font-family;
+	font-weight: 700;
+	font-size: 50px;
+	color: $heading-color;
+	margin-bottom: 35px;
 }
 
-.portfolio-sections > ul > li > a {
-  text-decoration: none;
-  color: $text-color;
+.projects__list > p {
+	text-transform: uppercase;
+	font-family: $font-family;
+	font-size: 20px;
+	margin-bottom: 5px;
+	color: $heading-color;
 }
 
-.portfolio-sections > ul > li > a:hover {
-  color: $hover-color;
+.projects__list > a {
+	text-transform: uppercase;
+	font-family: $font-family;
+	font-size: 20px;
+	margin-bottom: 5px;
+	color: $heading-color;
 }
 
-.portfolio-sections > ul > li > a:active {
-  color: $hover-color;
-}
-
-.portfolio-sections > ul > li > a:visited {
-  font-weight: 500;
-}
-
-.technical-section {
-  height: 100vh;
+.projects__list > a:hover {
+	color: $hover-color;
+	text-decoration: none;
 }
