@@ -4,6 +4,7 @@ import PortfolioSections from './PortfolioSections';
 import DesignSection from './DesignSection/DesignSection';
 import WritingSection from './WritingSection/WritingSection';
 import Plates from './Plates/Plates';
+import DrawingWithCode from './DrawingWithCode/DrawingWithCode';
 import './styles/Portfolio.scss';
 
 function Portfolio() {
@@ -16,7 +17,13 @@ function Portfolio() {
 			<div id="portfolio-section" className="portfolio__section">
 				<PortfolioSections />
 			</div>
-			{/* Projects - Plates */}
+
+			{/* Projects__Drawing With Code */}
+			<div id="dwc">
+				<DrawingWithCode />
+			</div>
+
+			{/* Projects__Plates */}
 			<div id="plates">
 				<Plates />
 			</div>

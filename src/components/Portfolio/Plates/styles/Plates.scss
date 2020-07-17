@@ -6,8 +6,10 @@ $font-family: "Oswald", sans-serif;
 $hover-color: #25697d;
 
 .plates__container {
+	display: flex;
+	flex-direction: row;
 	height: 100vh;
-	color: palegreen;
+	background-color: palegoldenrod;
 }
 
 .plates__heading {

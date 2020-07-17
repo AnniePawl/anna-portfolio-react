@@ -8,9 +8,11 @@ function PortfolioSections() {
 			{/* List of Projects */}
 			<div className="projects__list">
 				<h1 className="projects__heading"> Projects</h1>
-				<p>Drawing With Code</p>
+				<HashLink smooth to="/portfolio/#dwc" className="projects__p">
+					<p>Drawing With Code</p>
+				</HashLink>
 
-				<HashLink smooth to="/portfolio/#plates">
+				<HashLink smooth to="/portfolio/#plates" className="projects__p">
 					<p>Rejected Vanity Plates</p>
 				</HashLink>
 			</div>

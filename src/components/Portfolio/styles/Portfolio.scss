@@ -7,10 +7,6 @@ $font-family: "Oswald", sans-serif;
 // $text-color: #e7ff96;
 $hover-color: #25697d;
 
-// .portfolio__section {
-// 	height: 100vh;
-// }
-
 .portfolio_sections__container {
 	height: 100vh;
 	background-color: $background-color;
@@ -35,12 +31,20 @@ $hover-color: #25697d;
 	margin-bottom: 35px;
 }
 
-.projects__list > p {
+.projects__heading:hover {
+	color: $hover-color;
+}
+
+.projects__p > p {
 	text-transform: uppercase;
 	font-family: $font-family;
 	font-size: 20px;
 	margin-bottom: 5px;
 	color: $heading-color;
+}
+
+.projects__p > p:hover {
+	color: $hover-color;
 }
 
 .projects__list > a {
