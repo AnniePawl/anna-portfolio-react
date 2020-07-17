@@ -1,0 +1,22 @@
+$background-color: #ffe8eb;
+$background-color2: #e7ff96;
+$heading-color: #499eb8;
+$text-color: #9debb4;
+$font-family: "Oswald", sans-serif;
+$hover-color: #25697d;
+
+.plates__container {
+	height: 100vh;
+	color: palegreen;
+}
+
+.plates__heading {
+	margin-top: 100px;
+	margin-left: 100px;
+	text-transform: uppercase;
+	font-family: $font-family;
+	font-weight: 700;
+	font-size: 50px;
+	color: $heading-color;
+	margin-bottom: 35px;
+}

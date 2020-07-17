@@ -1,9 +1,9 @@
 import React from 'react';
 import PortfolioNav from './PortfolioNav/portfolioNav';
 import PortfolioSections from './PortfolioSections';
-import TechnicalSection from './Projects/Projects';
 import DesignSection from './DesignSection/DesignSection';
 import WritingSection from './WritingSection/WritingSection';
+import Plates from './Plates/Plates';
 import './styles/Portfolio.scss';
 
 function Portfolio() {
@@ -11,14 +11,14 @@ function Portfolio() {
 		<div id="portfolio" className="portfolio__container">
 			{/* Portfolio Navbar */}
 			<PortfolioNav />
+
 			{/* Portfolio Sections Hero */}
 			<div id="portfolio-section" className="portfolio__section">
 				<PortfolioSections />
 			</div>
-
-			{/* Technical Projects Section */}
-			<div id="technical-section">
-				<TechnicalSection />
+			{/* Projects - Plates */}
+			<div id="plates">
+				<Plates />
 			</div>
 
 			{/* Design Section */}
