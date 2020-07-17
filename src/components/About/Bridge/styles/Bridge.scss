@@ -2,13 +2,13 @@
 .bridge {
 	margin-left: -2vw;
 	margin-right: -2vw;
-	margin-bottom: 50px;
+	margin-bottom: 0px;
 }
 
 // Fog Styles
 .fog {
 	position: relative;
-	bottom: -25vh;
+	bottom: 0vh;
 	width: 100%;
 
 	&__img {
@@ -20,7 +20,7 @@
 
 		&__first {
 			background: url("../../../../assets/fog.png");
-			opacity: 0.5;
+			opacity: 0.25;
 			background-size: contain;
 			background-position: center;
 			animation: fog 60s linear infinite;
@@ -28,7 +28,7 @@
 
 		&__second {
 			background: url("../../../../assets/fog.png");
-			opacity: 0.5;
+			opacity: 0.25;
 			background-size: contain;
 			background-position: center;
 			animation: fog 40s linear infinite;
